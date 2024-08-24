@@ -12,8 +12,9 @@ import {
   refreshTokenValidator,
 } from "../../validations/api";
 import { ResendLimiter } from "../../core/limitRequest";
+import express from "express";
 
-const AuthController = require("express").Router();
+const AuthController = express.Router();
 AuthController.base = "auth";
 
 /**
