@@ -1,0 +1,10 @@
+/** Define response codes */
+export const code = {
+    CREATED_SUCCESS_CODE: 201,
+    SUCCESS_CODE: 200,
+    VALIDATION_FAIL_CODE: 400,
+    AUTHENTICATION_FAIL_CODE: 401,
+    NOT_ALLOW_CODE: 403,
+    NOT_FOUND_CODE: 404,
+    ERROR_EXCEPTION_CODE: 500
+};
